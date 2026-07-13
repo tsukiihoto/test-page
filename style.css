@@ -1,0 +1,44 @@
+body{
+    margin:0;
+    background:#cccccc;
+}
+
+#scene{
+    width:960px;
+    height:534px;
+    margin:auto;
+    position:relative;
+}
+
+#bg0{
+    position:absolute;
+    left:0;
+    top:0;
+}
+
+#bg1{
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:2;
+}
+
+#butterfly{
+    position:absolute;
+    left:150px;
+    top:380px;
+    width:80px;
+    cursor:pointer;
+    transition:0.5s;
+    z-index:10;
+}
+
+#foo{
+    position:absolute;
+    left:650px;
+    top:240px;
+    width:55px;
+    cursor:pointer;
+    transition:0.5s;
+    z-index:5;
+}
